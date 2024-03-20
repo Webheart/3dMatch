@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32483fc95ff041629bbc698c5f9d452f, type: 3}
+  m_Name: GameplaySettings
+  m_EditorClassIdentifier: 
+  DefaultGameplayData:
+    CollectibleObjects:
+    - {fileID: 344064289214805087, guid: 59e1c36946758c841878e60b50f2f31c, type: 3}
+    - {fileID: 344064289214805087, guid: 4365b98d1ba5be64d99985e70c8285f2, type: 3}
+    - {fileID: 4311382580350410536, guid: 97bc5bca531ad054cadcea50cf3bef86, type: 3}
+    - {fileID: 344064289214805087, guid: 13020d0afa45a6b4a869acfa09bf9abc, type: 3}
+    - {fileID: 344064289214805087, guid: b4febe869c4ac8b42862fbaf0392214b, type: 3}
+    - {fileID: 344064289214805087, guid: 475b6da0c539e0840ac6a336f2195797, type: 3}
+    - {fileID: 3684403268001603639, guid: 084b069b8a82bf64185628aa91ea194a, type: 3}
+    - {fileID: 344064289214805087, guid: fd358fe43b8964a4497a1b4d17271553, type: 3}
+    - {fileID: 344064289214805087, guid: fb54031786631944e849d225b2928509, type: 3}
+    - {fileID: 344064289214805087, guid: 89c988e405ec86d42a7827a2585dc500, type: 3}
+    - {fileID: 4311382580350410536, guid: b5743e211f37ef742942284d786ed228, type: 3}
+    - {fileID: 344064289214805087, guid: cf1fffd1d7493b24a97b03c7fdf1ee3f, type: 3}
+    - {fileID: 344064289214805087, guid: d72e06112cccc5540b5a0825d0f0a76e, type: 3}
+    - {fileID: 344064289214805087, guid: 6bd3640b02fc66841a36ef72d6a747a7, type: 3}
+    - {fileID: 4311382580350410536, guid: 40ed9363cdfca4e4ba04139df7ae20a9, type: 3}
+    - {fileID: 344064289214805087, guid: f124408ce428f03428a974a446268536, type: 3}
+    - {fileID: 344064289214805087, guid: 5c6e3793eab320d49ace5f2255b22a12, type: 3}
+    - {fileID: 344064289214805087, guid: 271a4f07fc422294ca7ea67c5300632e, type: 3}
+    - {fileID: 4311382580350410536, guid: 0b95e2b601b5b8a47b296b35fc97234a, type: 3}
+    - {fileID: 344064289214805087, guid: cdf4728c3bad84b438b2c706c1e2ceb8, type: 3}
+    Timer: 300
+  MatchSize: 3
