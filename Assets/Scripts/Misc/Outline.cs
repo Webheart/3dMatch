@@ -10,29 +10,22 @@ public class Outline : MonoBehaviour
     [Header("Material")]
     [SerializeField] Material outlineMaterial;
 
-    private Material materialInstance;
     private List<Material> originalMaterials;
 
     void Awake()
     {
-        materialInstance = Instantiate(outlineMaterial);
         originalMaterials = new List<Material>(renderer.sharedMaterials);
     }
 
     void OnEnable()
     {
-        originalMaterials.Add(materialInstance);
+        originalMaterials.Add(outlineMaterial);
         renderer.SetMaterials(originalMaterials);
     }
 
     void OnDisable()
     {
-        originalMaterials.Remove(materialInstance);
+        originalMaterials.Remove(outlineMaterial);
         renderer.SetMaterials(originalMaterials);
-    }
-
-    void OnDestroy()
-    {
-        Destroy(materialInstance);
     }
 }
